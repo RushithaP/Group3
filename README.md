@@ -17,7 +17,7 @@ Banking sector is a booming industry where it earns majority of its profits from
 * Which classifier or algorithm will provide the maximum accuracy amongst all.
 
 ## Data Resources
-https://www.kaggle.com/altruistdelhite04/loan-prediction-problem-dataset
+https://www.kaggle.com/anmolkumar/analytics-vidhya-loan-prediction/code
 https://datasetsearch.research.google.com/search?query=Loan%20Prediction%20Problem%20Dataset&docid=L2cvMTFqbl9iend6ag%3D%3D
 This dataset contains over 1,000 records including variables like Loan_ID,	Gender,	Married	Dependents,	Education,	Self_Employed,	ApplicantIncome,	CoapplicantIncome, LoanAmount,	Loan_Amount_Term,	Credit_History, Property_Area	and Loan_Status. Here, "Loan_Status" is the target variable
 
