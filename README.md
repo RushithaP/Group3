@@ -2,7 +2,7 @@
 ## Domain: Banking & Finance
 
 ## Project Title
-Checking for Loan Approval  
+Classifying Loan approval status using Machine Learning Algorithms
 
 ## Group Members
 * Jinye Li
@@ -10,7 +10,7 @@ Checking for Loan Approval
 * Pratheeka Thummala
 
 ## Introduction to Problem or Opportunity
-Banking sector is a booming industry where it earns most of its profits from interest on the loan they assign. And computers nowadays are intelligent enough to perform nearly all human tasks. In light of this, we are currently training a model to know if a customer is likely to get a loan approval or not. For this, we have gathered data from websites like google, kaggale and UCI merged them into one depending on the features that are relevent for us to work on. We will use different classification algorithms employing techniques like standardization, feature extraction, Principal Component Analysis (PCA) and modeling  to arrive at our solution and identify which one (algorithm) gives us the maximum accuracy
+Banking sector is a booming industry where it earns majority of its profits from interest on the loan they assign. And computers nowadays are intelligent enough to perform nearly all human tasks. In light of this, we are currently training a model to know if a customer is likely to get a loan approval or not. For this, we have gathered data from websites like google, kaggale and UCI merged them into one depending on the features that are relevent for us to work on. We will use different classification algorithms employing techniques like standardization, feature extraction, Principal Component Analysis (PCA) and modeling  to arrive at our solution and identify which one (algorithm) gives us the maximum accuracy
 
 ## Research Question
 * Extract features/variables which actually decide if the loan can be sanctioned or not, other than the Property_Area?
