@@ -10,10 +10,11 @@ Classifying Loan approval status using Machine Learning Algorithms
 * Pratheeka Thummala
 
 ## Introduction to Problem or Opportunity
-Banking sector is a booming industry where it earns the majority of its profits from interest on the loan they assign. And computers nowadays are intelligent enough to perform nearly all human tasks. In light of this, we are currently training a model to know if a customer is likely to get loan approval or not. For this, we have gathered data from websites like Google, Kaggle and UCI merged them into one depending on the features that are relevant for us to work on. We will use different classification algorithms employing techniques like standardization, feature extraction, Principal Component Analysis (PCA) and modeling  to arrive at our solution and identify which one (algorithm) gives us the maximum accuracy
+The banking sector is a booming industry where it earns the majority of its profits from interest on the loan they assign. And computers nowadays are intelligent enough to perform nearly all human tasks. In light of this, we are currently training a model to know if a customer is likely to get loan approval or not. For this, we have gathered data from websites like Google, Kaggle and UCI merged them into one depending on the features that are relevant for us to work on. We will use different classification algorithms employing techniques like standardization, feature extraction, Principal Component Analysis (PCA) and modeling  to arrive at our solution and identify which one (algorithm) gives us the maximum accuracy
 
 ## Research Question
-* Extract features/variables which actually decide if the loan can be sanctioned or not, other than the Property_Area?
+The outcome of the project is whether or not the loan is sanctioned after considering all the records of a particular person. Loan sanction depends on income, age, qualification, the purpose of taking loan. Since we are using other variables to describe the outcome i.e., with the help of income we are predicting if we get the loan or not. So we are performing a predictive analysis here.
+* Extract features/variables which will decide if the loan can be sanctioned or not, other than the Property_Area?
 * Which classifier or algorithm will provide the maximum accuracy amongst all.
 
 ## Data Resources
@@ -24,4 +25,4 @@ This dataset contains over 1,000 records including variables like Loan_ID,	Gende
 ## Future Work
 * Verifying if the person has given all the correct information to the bank.
 * Identify the amount of risk that the bank will incur if loan is approved.
-* If provided with more in depth details like credit and debit history the project can be elevated to another level of data exploration.
+* If provided with more in-depth details like credit and debit history the project can be elevated to another level of data exploration.
