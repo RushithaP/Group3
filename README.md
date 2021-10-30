@@ -15,7 +15,7 @@ The banking sector is a booming industry where it earns the majority of its prof
 This will be beneficial for anyone planning to provide financial services, as we aim to automate the process of determining and predicting a customer's eligibility in advance. As a result, the level of risk that the investor will face will be reduced to some extent in this domain.
 
 ## Research Question
-The outcome of the project is whether or not the loan is sanctioned after considering all the records of a particular person. Loan sanction depends on income, age, qualification, the purpose of taking loan. Since we are using other variables to describe the outcome i.e., with the help of income we are predicting if we get the loan or not. So we are performing a predictive analysis here.
+The outcome of the project is whether or not the loan is sanctioned after considering all the records of a particular person. Loan sanction depends on income, age, qualification, the purpose of taking loan. Since we are using other variables to describe the outcome i.e., with the help of income we are predicting if we get the loan or not. As a result, predictive analysis is being performed here.
 * Extract features/variables which will decide if the loan can be sanctioned or not, other than the Property_Area?
 * Which classifier or algorithm will provide the maximum accuracy amongst all.
 
