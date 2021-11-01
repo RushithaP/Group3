@@ -45,9 +45,9 @@ Regardless of the domain, this methodology offers a unique approach to represent
 * We classify the weight of each feature involved in loan processing through our application, and the same characteristics are processed on new test data with respect to their associated weight.
 
 ### 2. Data Understanding and EDA
-**Gathering data
+** Gathering data
   * We obtained data from Kaggle that was relevant to our study, verified it, and processed it. The data file is being uploaded to the list of files above. 
-**Describing data
+** Describing data
   * We loaded the data into a dataframe to do our operations as it is stored in CSV (Comma Separated Values) format. The parameters are as follows.
     * Loan_ID: Unique Loan ID
     * Gender: Male/ Female
@@ -62,7 +62,7 @@ Regardless of the domain, this methodology offers a unique approach to represent
     * Credit History: credit history meets guidelines yes or no    
     * Property Area: Urban/ Semi Urban/ Rural
     * Loan Status: Loan approved (Y/N) this is the target variable
-**Exploring data
+** Exploring data
   * We have conducted the preliminary analysis of data patterns to examine the data, make assumptions and perform operations by visualizing the statistics, graphs and relations in the data. For visualizations, we utilized seaborn and matplotlib, and for data manipulation, we used pandas. The distribution is skewed, and there are several outliers and also found missing values in 'Gender','Married', 'Dependents', 'Self-employed', 'LoanAmount', 'Loan_Amount_Term', 'Credit History', 'Loan Status'. Discovered that 'Credit History' had a greater impact on the output variable by looking for correlations in the data. 
 ### 3. Data Preparation
 * Handled the missing values in the data by filling the numerical missing values with the mean and for categorical values, we filled them with the mode. Further we addressed the outliers. One approach would be to just eliminate them; alternatively, we may log convert them to nullify their influence, which is what we did here. Through boxplot, we see that people with more education have a greater income. Similarly, we comprehended the relativity of other features in relation to our target variable.
