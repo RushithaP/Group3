@@ -40,7 +40,7 @@ This dataset contains over 1,000 records including variables like Loan_ID,	Gende
 Regardless of the domain, this methodology offers a unique approach to representing the stages of development of any data science project and has been proven to be efficient. It has a six-step cycle that goes as follows:
 ### 1. Business Understanding
 * Numerous banks and financial organizations continue to approve loans through a rigorous verification and validation process, but there is no guarantee that the chosen candidate is the most deserving of all applicants. We want to facilitate selecting qualified applicants as quick, simple, and easy as possible. 
-**In our application:  
+#### In our application:  
 * No stakeholders will be able to influence the outcome because the entire prediction process will be completed in private. Outcomes in relation to a specific loan Ids can be sent to various bank divisions so that appropriate action can be taken on the application.
 * We classify the weight of each feature involved in loan processing through our application, and the same characteristics are processed on new test data with respect to their associated weight.
 
