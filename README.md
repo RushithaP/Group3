@@ -66,7 +66,7 @@ Regardless of the domain, this methodology offers a unique approach to represent
   * We have conducted the preliminary analysis of data patterns to examine the data, make assumptions and perform operations by visualizing the statistics, graphs and relations in the data. For visualizations, we utilized seaborn and matplotlib, and for data manipulation, we used pandas. The distribution is skewed, and there are several outliers and also found missing values in 'Gender','Married', 'Dependents', 'Self-employed', 'LoanAmount', 'Loan_Amount_Term', 'Credit History', 'Loan Status'. Discovered that 'Credit History' had a greater impact on the output variable by looking for correlations in the data. 
 ### 3. Data Preparation
 * Handled the missing values in the data by filling the numerical missing values with the mean and for categorical values, we filled them with the mode. Further we addressed the outliers. One approach would be to just eliminate them; alternatively, we may log convert them to nullify their influence, which is what we did here. Through boxplot, we see that people with more education have a greater income. Similarly, we comprehended the relativity of other features in relation to our target variable.
-### 4. Modeling
+### 4. Modeling (Machine Learning)
 * We are in the process of implementing Predictive Machine Learning algorithms like Logistic Regression, Random Forest Classifier, Decision Tree Classifier and KNN
 To build our models, we are  using 'sklearn' library and by converting all of the categorical variables to integers. Writing a function that inputs a model, fits it, and measures the accuracy, which entails using the model on a train set and measuring the inaccuracy on the same set
 ### 5. Evaluation 
