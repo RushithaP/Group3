@@ -16,7 +16,7 @@ Classifying Loan approval status using Machine Learning Algorithms
 * Jupyter Notebook
 
 ## Introduction to Problem or Opportunity
-The banking sector is a booming industry where it earns the majority of its profits from interest on the loan they assign. And computers nowadays are intelligent enough to perform nearly all human tasks. In light of this, we are currently training a model to know if a customer is likely to get loan approval or not. For this, we have gathered data from websites like Google, Kaggle and UCI merged them into one depending on the features that are relevant for us to work on. We will use different classification algorithms employing techniques like standardization, feature extraction, Principal Component Analysis (PCA) and modeling  to arrive at our solution and identify which one (algorithm) gives us the maximum accuracy
+The banking sector is a booming industry where it earns the majority of its profits from interest on the loan they assign. Computers nowadays are intelligent enough to perform nearly all human tasks. In light of this, we are currently training a model to know if a customer is likely to get loan approval or not. For this, we have gathered data from websites like Google, Kaggle and UCI merged them into one depending on the features that are relevant for us to work on. We will use different classification algorithms employing techniques like standardization, feature extraction, Principal Component Analysis (PCA) and modeling  to arrive at our solution and identify which one (algorithm) gives us the maximum accuracy
 ### Targeted Audience: 
 This will be beneficial for anyone planning to provide financial services, as we aim to automate the process of determining and predicting a customer's eligibility in advance. As a result, the level of risk that the investor will face will be reduced to some extent in this domain.
 
@@ -29,14 +29,14 @@ The outcome of the project is whether or not the loan is sanctioned after consid
 https://www.kaggle.com/anmolkumar/analytics-vidhya-loan-prediction/code <br>
 https://datasetsearch.research.google.com/search?query=Loan%20Prediction%20Problem%20Dataset&docid=L2cvMTFqbl9iend6ag%3D%3D <br>
 https://www.kaggle.com/itssuru/loan-data <br>
-This dataset contains over 1,000 records including variables like Loan_ID,	Gender,	Married	Dependents,	Education,	Self_Employed,	ApplicantIncome,	CoapplicantIncome, LoanAmount,	Loan_Amount_Term,	Credit_History, Property_Area	and Loan_Status. Here, "Loan_Status" is the target variable. We are trying to merge all the above data into one dataframe and then perform traing and testing to predict the target variable. 
+This dataset contains over 1,000 records including variables like Loan_ID,	Gender,	Married	Dependents,	Education,	Self_Employed,	ApplicantIncome,	CoapplicantIncome, LoanAmount,	Loan_Amount_Term,	Credit_History, Property_Area	and Loan_Status. Here, "Loan_Status" is the target variable. We are trying to merge all the above data into one dataframe and then perform training and testing to predict the target variable. 
 
 ## Future Work
 * Verifying if the person has given all the correct information to the bank.
 * Identify the amount of risk that the bank will incur if loan is approved.
 * If provided with more in-depth details like credit and debit history the project can be elevated to another level of data exploration.
 
-## CRISP-DM (CRoss Industry Standard Process for Data Mining) Process Model
+## CRISP-DM (Cross Industry Standard Process for Data Mining) Process Model
 Regardless of the domain, this methodology offers a unique approach to representing the stages of development of any data science project and has been proven to be efficient. It has a six-step cycle that goes as follows:
 ### 1. Business Understanding
 * Numerous banks and financial organizations continue to approve loans through a rigorous verification and validation process, but there is no guarantee that the chosen candidate is the most deserving of all applicants. We want to facilitate selecting qualified applicants as quick, simple, and easy as possible. 
@@ -53,7 +53,7 @@ Regardless of the domain, this methodology offers a unique approach to represent
     * Gender: Male/ Female
     * Married: Applicant married (Y/N)
     * Dependents: Number of dependents
-    * Education: Applicant Education (Graduate/ Under Graduate)
+    * Education: Applicant Education (Graduate/ Undergraduate)
     * Self-employed: Self employed (Y/N)
     * ApplicantIncome: Applicant income
     * CoapplicantIncome: Co applicant income
