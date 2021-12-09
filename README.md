@@ -62,8 +62,8 @@ Regardless of the domain, this methodology offers a unique approach to represent
 ### 3. Data Preparation
 * Handled the missing values in the data by filling the numerical missing values with the mean and for categorical values, we filled them with the mode. Further, we have addressed the outliers. One approach would be to just eliminate them; alternatively, we may log convert them to nullify their influence, which is what we did here. Through the boxplot, we see that people with more education have a greater income. Similarly, we comprehended the relativity of other features in relation to our target variable.
 ### 4. Modeling (Machine Learning)
-* We are in the process of implementing Predictive Machine Learning algorithms like Logistic Regression, Random Forest Classifier, Decision Tree Classifier, and KNN
-To build our models, we are using 'sklearn' library and by converting all of the categorical variables to integers. Writing a function that inputs a model, fits it, and measures the accuracy, which entails using the model on a train set and measuring the inaccuracy on the same set
+* We have done implementing Predictive Machine Learning algorithms like Logistic Regression, Random Forest Classifier, Decision Tree Classifier, and KNN
+To build our models, we have used 'sklearn' library and coverted all of the categorical variables to integers. Writing a function that inputs a model, fits it, and measures the accuracy, which entails using the model on a train set and measuring the inaccuracy on the same set
 ### 5. Evaluation 
 * We have used evaluation methods such as the confusion matrix, precision, recall, f1-score, support, and model scores to decide the predictive models. Also, evaluated if our model is overfitted by using the cross-validation score as a metric. 
 ### 6. Conclusion
