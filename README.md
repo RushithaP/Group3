@@ -73,7 +73,7 @@ We have implemented machine learning classifiers like decision tree classifier, 
 Despite the challenges faced to find the classifier that gives the most accurate results, the model thus predicts if a customer is eligible for loan approval or not.
 ## Future Work
 * Verifying if the person has given all the correct information to the bank.
-* Identify the amount of risk that the bank will incur if a loan is approved.
+* Since no classifier provides 100 percent accuracy, identify the amount of risk that the bank will incur if a loan is approved is crucial.
 * If provided with more in-depth details like credit and debit history the project can be elevated to another level of data exploration.
 
 
